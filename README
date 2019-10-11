@@ -1,0 +1,11 @@
+Cogofly
+=======
+
+# Requirements
+
+$ sudo apt-get install python-pip build-essential python-dev
+$ sudo apt-get install libffi-dev libjpeg-dev zlib1g-dev libmysqlclient-dev
+$ pip install --user virtualenv
+$ virtualenv .python-env
+$ ./.python-env/bin/pip install -r requirements_prod.txt
+$ ./.python-env/bin/python manage.py runserver
